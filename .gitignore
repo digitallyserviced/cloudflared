@@ -5,7 +5,6 @@
 .vscode
 \#*\#
 cscope.*
-/cloudflared
 /cloudflared.pkg
 /cloudflared.exe
 /cloudflared.msi

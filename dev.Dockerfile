@@ -6,4 +6,4 @@ RUN apt-get update
 COPY . .
 # compile cloudflared
 RUN make cloudflared
-RUN cp /go/src/github.com/cloudflare/cloudflared/cloudflared /usr/local/bin/
+COPY /go/src/github.com/cloudflare/cloudflared/cloudflared /usr/local/bin/
